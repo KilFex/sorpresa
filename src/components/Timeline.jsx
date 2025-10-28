@@ -4,11 +4,23 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const photos = [
-  { year: 1, img: "/images/img_1.jpg" },
-  { year: 5, img: "/images/img_2.jpg" },
-  { year: 10, img: "/images/img_3.jpg" },
-  { year: 15, img: "/images/img_4.jpg" },
-  { year: 20, img: "/images/img_5.jpg" },
+  { year: 1, img: "/images/1.jpg" },
+  { year: 2, img: "/images/2.jpg" },
+  { year: 4, img: "/images/3.jpg" },
+  { year: 4, img: "/images/4.jpg" },
+  { year: 4, img: "/images/5.jpg" },
+  { year: 4, img: "/images/6.jpg" },
+  { year: 5, img: "/images/7.jpg" },
+  { year: 4, img: "/images/8.jpg" },
+  { year: 4, img: "/images/9.jpg" },
+  { year: 4, img: "/images/10.jpg" },
+  { year: 5, img: "/images/11.jpg" },
+  { year: 4, img: "/images/12.jpg" },
+  { year: 7, img: "/images/13.jpg" },
+  { year: 7, img: "/images/14.jpg" },
+  { year: 6, img: "/images/15.jpg" },
+  { year: 6, img: "/images/16.jpg" },
+  { year: 8, img: "/images/17.jpg" }
 ];
 
 export default function Timeline() {
